@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background:url('n1.jpeg');
+    background-color: antiquewhite;
 }
 .c1{
     position:relative;
@@ -54,13 +54,11 @@ body{
    left:50%;
 }
 .textbox{
+    
     position:relative;
     padding:20px 30px;
-    background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(15px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+   background-color: white;
+   border-radius: 20px;
     font-size:15px;
 }
 .container img{
@@ -81,7 +79,7 @@ body{
     position: absolute;
     width:7px;
     height:100%;
-    background: #fff;
+    background-color: white;
     left:50%;
     top:0;
     margin-left:-3px;
