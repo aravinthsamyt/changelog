@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-     background: url('Horse\ and\ BMW.jpeg') no-repeat center center fixed;
+     background: url('download\ \(2\).jpeg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
 }
@@ -60,13 +60,16 @@ body{
     position:relative;
     padding:20px 30px;
    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: rgb(245, 234, 116);
    border-radius: 20px;
     font-size:15px;
+}
+.textbox h2,small{
+    color: rgb(255, 254, 254);
 }
 .container img{
     position:absolute;
