@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 body{
-     background: url('download\ \(2\).jpeg') no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100vh;
+     background-color: pink;
 }
 .c1{
     position:relative;
@@ -59,17 +57,14 @@ body{
     
     position:relative;
     padding:20px 30px;
-   background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(50px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+   background-color: white;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    color: rgb(245, 234, 116);
-   border-radius: 20px;
+    color: rgb(14, 14, 14);
+    border-radius: 20px;
     font-size:15px;
 }
 .textbox h2,small{
-    color: rgb(255, 254, 254);
+    color: rgb(11, 10, 10);
 }
 .container img{
     position:absolute;
@@ -89,9 +84,7 @@ body{
     position: absolute;
     width:7px;
     height:100%;
-   background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    background-color:white;
     border: 1px solid rgba(255, 255, 255, 0.3);
     left:50%;
     top:0;
@@ -138,11 +131,11 @@ body{
         margin:50px auto;
     }
     .c1::after{
-        left:20px;
+        left:30px;
     }
     .container{
         width:100%;
-        padding-left:70px;
+        padding-left:90px;
         padding-right: 25px;
     }
     .textbox{
@@ -156,10 +149,10 @@ body{
     }
     .left-container img,.right-container img{
         right: auto;
-        left: -10px;
+        left: 1px;
     }
     .left-container-arrow,.right-container-arrow{
-        right:auot;
+        right:auto;
         left:-14px;
         border-right:15px solid white;
         border-left:none;
